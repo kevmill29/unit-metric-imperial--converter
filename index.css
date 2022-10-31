@@ -7,10 +7,9 @@ height: 729px;
 }
 
 #container{
-    background-color: #047857;
- ;
-    width:100vw;
-    height: 285px;
+background-color: #047857;
+width:100vw;
+height: 285px;
 left:0;
 right:0;
 margin: 0 auto 34px auto; 
@@ -21,14 +20,14 @@ flex-direction: column;
 }
 
 input {
-    margin: auto; 
-    border: 2px solid #FEF3C7;
+  margin: auto; 
+  border: 2px solid #FEF3C7;
   width: 117px;
-   height: 83px; 
-   font-size: 58px; 
-   border-radius: 5px; 
+  height: 83px; 
+  font-size: 58px; 
+  border-radius: 5px; 
 padding-top:10px;
-background-color: #059669;
+background-color: #047857;
 color: white;
 font-family: 'Inter';
 font-style: normal;
