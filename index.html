@@ -6,23 +6,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="container">
-            <h3>Metric/Imperial Unit Conversion</h2>
-                <input type="number" id="base-value"></input>
-                    <button id="convert-btn">Convert</button>
-        </div>
-        <div class="conversion" id="length-div">
-            <h2>Length(Meters/Feet)</h2>
-            <p id="length"></p>
-        </div>
-        <div class="conversion" id="mass-div">
-            <h2>Mass(Kilograms/Pounds)</h2>
-            <p id="mass"></p>
-        </div>
-        <div class="conversion" id="volume-div">
-            <h2>Volume(Liters/Gallons)</h2>
-            <p id="volume"></p>
-        </div>
+        <header>
+            <div class="container">
+                <h3>Metric/Imperial Unit Conversion</h3>
+                    <input type="number" id="base-value" placeholder="0"></input>
+                        <button id="convert-btn">Convert</button>
+            </div>
+        <header>
+        <section>
+            <div class="conversion length-div" >
+                <h2>Length(Meters/Feet)</h2>
+                <p id="length"></p>
+            </div>
+            <div class="conversion mass-div" >
+                <h2>Mass(Kilograms/Pounds)</h2>
+                <p id="mass"></p>
+            </div>
+            <div class="conversion volume-div">
+                <h2>Volume(Liters/Gallons)</h2>
+                <p id="volume"></p>
+            </div>
+        <section>
        
         
         <script src="index.js"></script>
