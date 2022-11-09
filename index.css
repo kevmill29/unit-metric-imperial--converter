@@ -15,12 +15,12 @@ height: 729px;
 /* General Styling */
 
 .container{
- background-color: #0284C7;
- width:100vw;
- height: 285px;
+     background-color: #0284C7;
+    width:100vw;
+    height: 285px;
 left:0;
 right:0;
-margin: 0 auto;  
+margin: 0 auto 34px auto; 
 text-align: center; 
 color: white; 
 display: flex; 
@@ -44,7 +44,6 @@ font-size: 58px;
 line-height: 24px;
 text-align: center;
 }
-
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -67,25 +66,8 @@ button{
     border: none; 
     font-size: 16px; 
 }
-.button:active, .button:hover { /*Clicked and held*/
-  box-shadow: 0px 5px 6px rgba(0,0,0,0.3);
-}
 
-
-
- .length-div{
-    margin-top: 36px;
-}
-
-.mass-div,  .length-div{
-    margin-bottom: 23.43px;
-}
-
- .volume-div{
-    margin-bottom: 0;
-}
-
-/* Text Styling */
+/* Typology Section */
 
 p{
     color: #353535;
@@ -109,4 +91,15 @@ h2{
 
 h3{
     font-size: 28px; 
+}
+ .length-div{
+    margin-top: 36px;
+}
+
+.mass-div,  .length-div{
+    margin-bottom: 23.43px;
+}
+
+ .volume-div{
+    margin-bottom: 0;
 }
