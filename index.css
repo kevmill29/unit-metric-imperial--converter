@@ -8,15 +8,15 @@ html, body {
   font-family: 'Inter', sans-serif;
   background-color: #1F2937;
   margin: 0 auto;
-    width: 600px; 
+  width: 600px; 
 }
 
 /* General Styling */
 
 .container{
-     background-color: #0284C7;
-    width:550px;
-    height: 285px;
+background-color: #0284C7;
+width:550px;
+height: 285px;
 left:0;
 right:0;
 margin: 25px auto 0 auto;  
@@ -28,10 +28,10 @@ flex-direction: column;
 }
 
 section .conversion{
-    display: flex; 
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;
+display: flex; 
+flex-direction: column;
+justify-content: center; 
+align-items: center;
 padding: 0;
 width: 550px; 
 
@@ -47,18 +47,18 @@ text-align: center;
 left:0;
 right: 0; 
 padding: 0 0 20px 0;
- line-height: 1.1em; 
-    border: 1px solid #F4F4F4;
+line-height: 1.1em; 
+border: 1px solid #F4F4F4;
 }
 
 
 input {
-    margin: auto; 
-    border: 2px solid #FEF3C7;
-  width: 117px;
-   height: 83px; 
-   font-size: 58px; 
-   border-radius: 5px; 
+margin: auto; 
+border: 2px solid #FEF3C7;
+width: 117px;
+height: 83px; 
+font-size: 58px; 
+border-radius: 5px; 
 padding-top:10px;
 background-color: #0284C7;
 color: white;
@@ -119,7 +119,7 @@ height: 45px;
 /* Text Styling */
 
 p{
-    color: white;
+    color: whitesmoke;
     margin-bottom: 18.56px;
     margin-top: 10px; 
 }
