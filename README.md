@@ -12,7 +12,7 @@ Include the JavaScript code in your HTML file.
 
 Make sure you have the following elements in your HTML:
 
-html
+
 Copy code
 <input type="text" id="base-value" />
 <button id="convert-btn">Convert</button>
