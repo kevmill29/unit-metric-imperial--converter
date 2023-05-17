@@ -13,13 +13,10 @@ Include the JavaScript code in your HTML file.
 Make sure you have the following elements in your HTML:
 
 
-Copy code
-***'<input type="text" id="base-value" />
-***<button id="convert-btn">Convert</button>
-***<div id="length"></div>
-***<div id="mass"></div>
-***<div id="volume"></div>'
-The base-value input field is where you enter the value to be converted. The results will be displayed in the length, mass, and volume div elements.
+Ensure that you have the following elements in your HTML:
+An input field with the ID "base-value" where you enter the value to be converted.
+A button with the ID "convert-btn" that you click to initiate the conversion.
+Three <div> elements with the IDs "length", "mass", and "volume" where the conversion results will be displayed.
 
 The conversion is triggered when the "Convert" button is clicked.
 
