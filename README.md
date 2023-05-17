@@ -7,6 +7,7 @@ This code provides a simple conversion calculator that converts between metric a
 Length: meters to feet and feet to meters
 Mass: kilograms to pounds and pounds to kilograms
 Volume: liters to gallons and gallons to liters
+
 Usage
 Include the JavaScript code in your HTML file.
 
